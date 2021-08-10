@@ -31,6 +31,12 @@ const reducer = (state, action) => {
                 ...state, 
                 total: calculateResult(state.total, action.payload, state.operation)
             })
+
+        case(CHANGE_OPERATION):
+            return({
+                ...state,
+                operation: action.payload
+            })
         
         default:
             return state

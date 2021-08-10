@@ -1,8 +1,8 @@
-import React from 'react';
+import React from 'react'
 
 
 const TotalDisplay = (props) => {
-    const { value } = props;
+    const { value } = props
     
     return(
     <div className="row">
@@ -11,7 +11,7 @@ const TotalDisplay = (props) => {
                 <textarea className="form-control" readOnly value={value} rows="1" id="total" type="text" name="ans"></textarea>
             </div>
         </div>
-    </div>);
+    </div>)
 }
 
-export default TotalDisplay;
+export default TotalDisplay

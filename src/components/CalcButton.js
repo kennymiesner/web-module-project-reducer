@@ -1,11 +1,11 @@
-import React from 'react';
+import React from 'react'
 
 const CalcButton = (props) => {
-    const { value, onClick = ()=>{}, size = 4} = props;
+    const { value, onClick = ()=>{}, size = 4} = props
 
     return(<div className={`col-xs-${size}`}>
         <button type="button" onClick={onClick} className="btn">{value}</button>
-    </div>);
+    </div>)
 }
 
-export default CalcButton;
+export default CalcButton

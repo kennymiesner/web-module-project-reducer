@@ -4,6 +4,7 @@ export const CHANGE_OPERATION = 'CHANGE_OPERATION'
 export const CLEAR_DISPLAY = 'CLEAR_DISPLAY'
 export const ADD_TO_MEMORY = 'ADD_TO_MEMORY'
 export const RECALL_MEMORY = 'RECALL_MEMORY'
+export const CLEAR_MEMORY = 'CLEAR_MEMORY'
 
 export const addOne = () => {
     return({type:ADD_ONE});
@@ -27,4 +28,8 @@ export const addToMemory = () => {
 
 export const recallMemory = () => {
   return({type: RECALL_MEMORY})
+}
+
+export const clearMemory = () => {
+  return({type: CLEAR_MEMORY})
 }
